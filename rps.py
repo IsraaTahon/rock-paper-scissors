@@ -97,7 +97,7 @@ class Game:
 
         if beats(move1, move2):
             self.count_wins += 1
-            print(f"wins:{self.count_wins}")
+            print("Player one won!")
         elif move1 == move2:
             self.count_ties += 1
             print(f"ties:{self.count_ties}")
@@ -130,7 +130,7 @@ class Game:
         elif self.count_wins < self.count_losses:
             print("Player Two is Victorious\n")
         else:
-            print("Nobody is the Victor - Tie Game\n")
+             print(f"wins:{self.count_wins}")
 
 
 if __name__ == '__main__':
