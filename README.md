@@ -1,6 +1,6 @@
 * Rock, Paper or Scissor
 
-THis im my implementation to the project Rock, Paper or Scissor from Udacity.
+This projct my implementation to the project Rock, Paper or Scissor from Udacity nanodegree.
 
 * How to play?
 
